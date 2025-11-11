@@ -1,19 +1,28 @@
 <template>
-   <div class="bg-gray-50 text-gray-900 font-sans">
-    <section class="relative h-[85vh] bg-[url('/assest/spray-.png')] bg-cover bg-center flex items-center justify-center">
-  <div class="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-red-900/40 animate-pulse"></div>
-  <div class="absolute bottom-0 w-full overflow-hidden leading-[0] rotate-180">
-    <svg class="relative block w-full h-16 sm:h-24 text-white" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1200 120">
-      <path d="M321.39,56.9C161.16,77,0,119.5,0,119.5V0H1200V119.5s-161.16-42.5-321.39-62.6C720.92,36.4,600,67.2,479.08,67.2,358.16,67.2,321.39,56.9,321.39,56.9Z" class="fill-white"></path>
-    </svg>
-  </div>
+<div class="bg-gray-50 text-gray-900 font-sans">
+  <section class="relative h-[85vh] flex items-center bg-gradient-to-br from-gray-900 via-gray-800 to-red-900 overflow-hidden px-6 sm:px-10">
 
- <div class="relative z-10 text-center px-6 sm:px-12 py-8 rounded-3xl backdrop-blur-md bg-white/10 border border-white/20 shadow-2xl max-w-3xl animate-fade-in">
-    <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white leading-tight drop-shadow-lg">
-       <span class="text-red-500">Modern SprayBooth</span>
-    </h1>
-  </div>
-</section></div>
+    <!-- Image Left -->
+    <div class="relative z-10 w-[45%] flex justify-center">
+      <img 
+        src="/assest/sb-.png" 
+        alt="Spray Booth"
+        class="w-[350px] sm:w-[450px] md:w-[520px] object-contain drop-shadow-2xl"
+      />
+    </div>
+
+    <!-- Text Right -->
+    <div class="relative z-10 w-[55%] pr-6 sm:pr-12 text-right">
+      <h1 class="text-4xl sm:text-5xl font-bold text-white leading-tight">
+        Modern <span class="text-red-500">Spray Booth</span> Technology
+      </h1>
+      <p class="mt-4 text-gray-300 text-lg">
+        High-performance automotive spray booth engineered for efficiency, durability and premium finishing.
+      </p>
+      
+    </div>
+  </section>
+</div>
 
   
  <section class="py-24 bg-gray-50">
@@ -60,7 +69,7 @@
 const assest = [
 {
   name: "Automotive Spray Booth",
-  image: "/assest/spray-.png",
+  image: "/assest/sb-.png",
   description: "Sealed and controlled environment designed for high-quality vehicle painting, ensuring dust-free finishing and proper drying.",
   link: "http://garutech.ng/product/3St44j49bl7hpbDJAJgO"
 },

@@ -12,7 +12,7 @@
       
       <!-- Image / Hero -->
       <div class="md:w-1/2">
-        <img src="/assest/spray-.png" alt="Automobile Workshop" class="rounded-3xl shadow-2xl object-cover w-full h-full">
+        <img src="/assest/abtt.jpg" alt="Automobile Workshop" class="rounded-3xl shadow-2xl object-cover w-full h-full">
       </div>
 
       <!-- Content -->
