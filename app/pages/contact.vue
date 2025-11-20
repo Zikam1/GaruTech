@@ -30,7 +30,7 @@
         <span>💬</span> WhatsApp
       </a>
 
-      <a href="mailto:info@yourworkshop.com"
+      <a href="mailto:lukmangaru@gmail.com"
          class="flex items-center gap-2 bg-red-600 text-white px-8 py-3 rounded-full font-bold shadow-lg hover:bg-red-500 transition transform hover:scale-105">
         <span>✉️</span> Email Support
       </a>
